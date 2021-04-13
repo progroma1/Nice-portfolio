@@ -151,3 +151,48 @@ header .toggle.active {
     background: #fff;
     color: #111;
 }
+
+.sci {
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.sci li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+}
+
+.sci li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.sci li:hover a {
+    background: #fff;
+}
+
+
+
+.sci li a img {
+    filter:invert(1);
+    transform:scale(0.5);
+}
+
+.sci li:hover a img {
+    filter: invert(0);
+}
+
